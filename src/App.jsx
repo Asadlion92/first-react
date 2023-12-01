@@ -1,14 +1,15 @@
 import './App.css'
+import Hello from './components/Hello/Hello'
 
 function App() {
 
-  const myname = "Ja'far"
+  const myname1 = "Ja'far"
+  const myname2 = "Musa"
 
   return (
     <div>
-      
-      <h1>Hello {myname}</h1>
-      <p>this is my first react project, not really...</p>
+      <Hello name={myname1} color="red" />
+      <Hello name={myname2} color="blue" />
     
     </div>
   )
