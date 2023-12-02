@@ -1,5 +1,6 @@
 import './App.css'
 import Hello from './components/Hello/Hello'
+import Counter from './components/Counter/Counter'
 
 function App() {
 
@@ -8,8 +9,9 @@ function App() {
 
   return (
     <div>
-      <Hello name={myname1} color="red" />
-      <Hello name={myname2} color="blue" />
+    <Counter />
+      {/* <Hello name={myname1} color="red" />
+      <Hello name={myname2} color="blue" /> */}
     
     </div>
   )
