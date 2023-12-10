@@ -1,6 +1,7 @@
 import './App.css'
 import Hello from './components/Hello/Hello'
 import Counter from './components/Counter/Counter'
+import Welcome from './components/Welcome/Welcome'
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
   return (
     <div>
 
-      {users.map(item => <Hello user={item} key={item.id} />)}
+      <Welcome />
+
+      {/* {users.map(item => <Hello user={item} key={item.id} />)} */}
       {/* {users.map(item => <Hello name={item} color="red" />)} */}
 
 
